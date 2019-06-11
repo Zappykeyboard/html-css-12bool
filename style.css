@@ -1,0 +1,22 @@
+.container{
+  background-color: pink;
+}
+
+[class *="col-"]{
+  border: 1px solid black;
+  height: 100px;
+ 
+}
+
+[class *="col-"] p{
+   text-align: center;
+   margin-top: 45px;
+}
+
+.nested{
+  background-color: pink
+}
+
+.nested [class*="col-"]{
+  border: 1px solid white;
+}
