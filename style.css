@@ -4,17 +4,19 @@
 
 [class *="col-"]{
   border: 1px solid black;
-  height: 100px;
+  height: 200px;
  
 }
 
 [class *="col-"] p{
    text-align: center;
-   margin-top: 45px;
+   margin-top: 100px;
 }
 
 .nested{
-  background-color: pink
+  background-color: palevioletred;
+  width: 99%;
+
 }
 
 .nested [class*="col-"]{
