@@ -15,7 +15,6 @@
 
 .nested{
   background-color: palevioletred;
-  width: 100%;
 }
 
 .nested [class*="col-"]{
